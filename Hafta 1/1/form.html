@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bütçe Ekle</title>
+    <link rel="stylesheet" href="css/still.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bütçe Takip Programı</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="form.html">Bütçe Ekle</a></li>
+                <li><a href="butceler.html">Bütçeler</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bütçe Ekle</h2>
+        <form id="bütçeForm">
+            <p>
+                <label for="isim">İsim</label><br>
+                <input type="text" id="isim" name="isim" required>
+            </p>
+            <p>
+                <label for="soyİsim">Soy İsim</label><br>
+                <input type="text" id="soyİsim" name="soyİsim" required>
+            </p>
+            <p>
+                <label for="yas">Yaş</label><br>
+                <input type="number" id="yas" name="yas" required>
+            </p>
+            <p>
+                <label for="meslek">Meslek</label><br>
+                <input type="text" id="meslek" name="meslek" required>
+            </p>
+            <p>
+                <label for="gelirtür">Gelir Türü</label><br>
+                <input type="text" id="gelirtür" name="gelirtür" placeholder="Örn. Maaş">
+            </p>
+            <p>
+                <label for="miktar">Miktar</label><br>
+                <input type="number" id="miktar" name="miktar" required>
+            </p>
+
+            <button type="submit">Kaydet</button>
+            <button type="reset" form="bütçeForm">Temizle</button>
+
+        </form>
+        <br>
+        
+        
+        
+    </main>
+    <footer>
+        <p>&copy; Bütçe Takip</p>
+    </footer>
+    
+</body>
+</html>
